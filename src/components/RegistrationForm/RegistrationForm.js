@@ -3,7 +3,7 @@ import { Button, Input, Required } from '../Utils/Utils'
 
 export default class RegistrationForm extends Component {
   static defaultProps = {
-    onRegistrationSuccess: () => {}
+    onRegistrationSuccess: () => { }
   }
 
   state = { error: null }

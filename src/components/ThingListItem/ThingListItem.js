@@ -9,7 +9,7 @@ export default class ThingListItem extends Component {
 
     return (
       <Link to={`/thing/${thing.id}`} className='ThingListItem'>
-        <div className='ThingListItem__image' style={{backgroundImage: `url(${thing.image})`}} />
+        <div className='ThingListItem__image' style={{ backgroundImage: `url(${thing.image})` }} />
 
         <div className='ThingListItem__details'>
           <div className='ThingListItem__text'>
@@ -28,7 +28,7 @@ export default class ThingListItem extends Component {
 }
 
 function readableReviewCount(number) {
-  switch(number) {
+  switch (number) {
     case 0:
       return 'no reviews yet'
 
